@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+.list-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-width: 2px;
+  border-bottom-color: #d3d3d3;
+  border-bottom-style: solid;
+}
+@media screen and (min-width: 700px) {
+  .list-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.lis-imgeUrl {
+  width: 300px;
+  height: 300px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.list-div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.list-param {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+.list-headingm {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #000000;
+}
+.list-row {
+  display: flex;
+}
+.avatar-img {
+  width: 25px;
+  height: 25px;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.li {
+  list-style-type: none;
+}
